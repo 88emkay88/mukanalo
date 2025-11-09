@@ -1,4 +1,3 @@
-import React from 'react'
 import heroImg from "../assets/images/network-data-structure.jpg"
 import { ArrowRight, Award, BookOpen, Users } from 'lucide-react'
 import { Button } from './ui/button'

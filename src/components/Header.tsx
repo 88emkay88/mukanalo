@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import logo from '../assets/MUKANALO_LOGO.png'
 import { Button } from './ui/button'
 import { Menu, X } from "lucide-react";
