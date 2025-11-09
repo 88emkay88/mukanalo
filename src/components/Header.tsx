@@ -2,8 +2,9 @@ import logo from '../assets/MUKANALO_LOGO.png'
 import { Button } from './ui/button'
 import { Menu, X } from "lucide-react";
 import { Link, useNavigate } from 'react-router-dom';
+import { useState, type JSX } from 'react';
 
-const Header = () => {
+const Header = (): JSX.Element => {
   const [mobileMenu, setMobileMenu] = useState(false)
   const navigate = useNavigate();
 
