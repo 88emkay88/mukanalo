@@ -9,6 +9,7 @@ import SANParks from "../assets/images/SANP.jpg"
 import ZEISS from "../assets/images/zeiss.jpg"
 import BALTEK from "../assets/images/BALTEK_ENGINEERING.jpg"
 import EZIBALENI from "../assets/images/EZIBELENI SCHOOL.jpg"
+import DOWnS from "../assets/images/Department_of_Water_and_Sanitation_logo.svg.png"
 
 
 const Clients = [
@@ -41,7 +42,12 @@ const Clients = [
         id: 6, 
         name: "EZIBELENI SCHOOL",
         image: EZIBALENI
-    },
+  },
+  {
+    id: 7,
+    name: "Department of Water and Sanitation",
+    image: DOWnS
+    }
 ]
 
 const About = () => {
